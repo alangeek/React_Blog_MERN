@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+* ::-moz-selection {
+  color: #000;
+  background-color: #04d361;
+}
+* ::selection {
+  color: #000;
+  background-color: #04d361;
+}
+* ::-webkit-scrollbar {
+  width: 0.9rem;
+}
+* ::-webkit-scrollbar-track {
+  background: #202020;
+}
+* ::-webkit-scrollbar-thumb {
+  background-color: #04d361;
+  border-radius: 7px;
+  border: 3px solid #202020;
+}
